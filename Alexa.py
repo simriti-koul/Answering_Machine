@@ -100,7 +100,10 @@ def call_Anuja():
     elif 'How is your health?' in command:
         cmd=talk('My sleep cycle is effed as yours!')
         print(cmd)
-    else:
+          elif 'Should I choose Engineering?' in command:
+        cmd=talk('choose life not Engineering!')
+        print(cmd)
+         else:
        default = talk('I am sorry, I did not understand ')
        print(default)
         
